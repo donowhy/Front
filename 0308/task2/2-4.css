@@ -1,8 +1,0 @@
-div p {
-    color:  blue;
-}
-
-div > p {
-    color: crimson;
-    text-indent: 10px;
-}
