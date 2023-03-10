@@ -1,0 +1,16 @@
+/* bootstrap 가져온 html 파일 만들기
+images 폴더 복사하기
+styles.css 생성하기 */
+
+.carousel-item > img{
+    /* vw, vh
+    브라우저 크기에 대응
+    %는 부모의 영향을 받는다
+     */
+    height: 100vh;
+
+}
+
+nav{
+    z-index: 10;
+}
