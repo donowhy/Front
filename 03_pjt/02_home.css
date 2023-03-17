@@ -1,0 +1,30 @@
+.boxoffice{
+    text-align:center;
+    font-weight:bold;
+    padding:25px 0;
+}
+
+article{
+    margin-bottom:30px;
+    
+}
+
+@media screen and (max-width: 768px){
+    article{
+        flex-basis:100%;
+    }
+}
+
+nav{
+    z-index: 10;
+}
+
+.carousel-item > img{
+    /* vw, vh
+    브라우저 크기에 대응
+    %는 부모의 영향을 받는다
+     */
+    height: 100vh;
+
+}
+
